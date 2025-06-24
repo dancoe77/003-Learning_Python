@@ -1,0 +1,19 @@
+Intro
+    Curriculum Overview
+    Python 2 vs Python 3
+    How to approach this course
+Python Setup
+    Python installation
+    Environment selection
+    Jupyter Notebooks
+    Addt Learning Resources
+    Git and Github Overview
+Object and Data Structure Basics
+    Numbers
+    Strings
+    Lists
+    Dictionaries
+    Tuples
+    Files
+    Sets
+    Booleans
