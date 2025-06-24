@@ -1,0 +1,7 @@
+pwd //Find current directory
+
+ls -la //Listing all files in a cirectory
+
+cd ../007-Installing_python // How to change directories
+
+clear // how to clear the command line screen
