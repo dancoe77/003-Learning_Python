@@ -1,0 +1,12 @@
+/*
+Double check against course notebooks
+
+Quick Google search or StackOverflow search
+
+Search the QA forums in the course
+
+Check out the FAQ lecture
+
+Submit new question in the QA forums
+    Details on what you've tried
+    Screenshot of error or code

@@ -1,0 +1,7 @@
+git config --global init.DefaultBranch main
+
+git init
+
+git remote add origin git@github.com:dancoe77/003-Learning_Python.git
+
+git pull origin main
