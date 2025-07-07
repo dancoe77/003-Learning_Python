@@ -1,0 +1,1 @@
+print("I think I prefer Golang functions to Python functions")
