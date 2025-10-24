@@ -45,7 +45,7 @@ def win_check(board, mark):
             (board[7] == mark and  board[4] == mark and  board[1] == mark) or
             (board[8] == mark and  board[5] == mark and  board[2] == mark) or
             (board[9] == mark and  board[6] == mark and  board[3] == mark) or
-            # Two diagonals
+            # 02 diagonals
             (board[7] == mark and  board[5] == mark and  board[3] == mark) or
             (board[9] == mark and  board[5] == mark and  board[1] == mark))
 #test_board = ["#","X","O","X","O","X","O","X","O","X"]
@@ -102,7 +102,7 @@ while True:
     ## Game play
 
     while game_on:
-        ### Player One turn
+        ### Player 01 turn
         if turn == "Player 1":
             # Show the board
             display_board(the_board)
@@ -124,7 +124,7 @@ while True:
                 # No tie or win? Then next player's turn
                 else:
                     turn = "Player 2"
-        ### Player Two turn
+        ### Player 02 turn
         else:
             # Show the board
             display_board(the_board)

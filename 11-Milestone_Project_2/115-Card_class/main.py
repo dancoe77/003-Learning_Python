@@ -2,8 +2,8 @@ zz = "###############################################################"
 print(zz)
 import random
 suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
-ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
-values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,
+ranks = ('02', '03', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
+values = {'02':2, '03':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,
           'Nine':9, 'Ten':10, 'Jack':11, 'Queen':12, 'King':13, 'Ace':14}
 
 class Card:
@@ -13,7 +13,7 @@ class Card:
         self.value = values[rank]
     def __str__(self):
         return self.rank + " of " + self.suit
-two_hearts = Card("Hearts","Two")
+two_hearts = Card("Hearts","02")
 print(type(two_hearts))
 print(two_hearts)
 print(two_hearts.suit)
@@ -21,7 +21,7 @@ print(two_hearts.rank)
 print(two_hearts.value)
 print(zz)
 
-three_clubs = Card("Clubs","Three")
+three_clubs = Card("Clubs","03")
 print(three_clubs.suit)
 print(three_clubs.rank)
 print(three_clubs.value)

@@ -1,7 +1,7 @@
 zz = "##########################################"
 print(zz)
 
-aa = "Two players should be able to play the game (both sitting at the same computer)"
+aa = "02 players should be able to play the game (both sitting at the same computer)"
 bb = "The board should be printed out every time a player makes a move"
 cc = "We should be able to accept input of the player position and then place a symbol on the board"
 print(aa)

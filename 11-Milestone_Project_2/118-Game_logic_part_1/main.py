@@ -1,7 +1,7 @@
 zz = "########################################################"
 print(zz)
 
-aa = "Player One and Player Two"
+aa = "Player 01 and Player 02"
 bb = "New Deck"
 cc = "Shuffle"
 dd = "Split cards between two players"
