@@ -1,0 +1,20 @@
+import pypdf
+f = open("Working_Business_Proposal.pdf","rb")
+pdf_reader = pypdf.PdfReader(f)
+print(pdf_reader.get_num_pages())
+page_one = pdf_reader.get_page(0)
+page_one_text = page_one.extract_text()
+print(page_one_text)
+# f.close()
+pdf_writer = pypdf.PdfWriter()
+pdf_writer.add_page(page_one)
+pdf_output = open("Some_BrandNew_Doc.pdf","wb")
+pdf_writer.write(pdf_output)
+pdf_output.close()
+# f.close()
+pdf_text = []
+for num in range(pdf_reader.get_num_pages()):
+    page = pdf_reader.get_page(num)
+    pdf_text.append(page.extract_text())
+print(pdf_text)
+f.close()
