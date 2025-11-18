@@ -1,0 +1,22 @@
+s = "Hello World"
+s.capitalize()
+print(s)
+print(s.upper())
+print(s.lower())
+print(s.count('o'))
+print(s.find('o'))
+print(s)
+print(s.center(20,"z"))
+print("Hello\tHi")
+t = "Hello"
+print(t.isalnum())
+print(t.isalpha())
+print(t.islower())
+print(t.isspace())
+print(t.istitle())
+print(t.isupper())
+print(t.endswith('o'))
+print(t.split('e'))
+u = "hiihhihihihhhi"
+print(u.split("i"))
+print(u.partition("i"))
