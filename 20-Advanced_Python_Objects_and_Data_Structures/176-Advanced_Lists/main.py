@@ -1,0 +1,26 @@
+l = [1,2,3]
+l.append(4)
+print(l)
+print(l.count(10))
+print(l.count(1))
+m = [1,2,3]
+m.append([4,5])
+print(m)
+n = [1,2,3]
+n.extend([4,5])
+print(n)
+print(l.index(2))
+l.insert(2,"inserted")
+print(l)
+ele = l.pop()
+print(ele)
+print(l.pop(0))
+l.remove("inserted")
+print(l)
+l = [1,2,3,4,3]
+l.remove(3)
+print(l)
+l.reverse()
+print(l)
+l.sort()
+print(l)
